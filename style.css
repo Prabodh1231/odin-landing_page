@@ -13,7 +13,8 @@ body{
 
 .headerup{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .headerupleft{
@@ -45,3 +46,48 @@ a{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.headerdown{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.headerdownleft{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.headerdownleftup{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.headerdownleftdown{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 25px;
+}
+
+button{
+    width: 75px;
+    height: auto;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+
+button.continue {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: white
+}
+
+.moti{
+    width: 500px;
+    height: auto;
+    margin-right: 150px;
+}
+
