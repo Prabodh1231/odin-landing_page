@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-body{
+*{
     font-family: 'Roboto', sans-serif;
+}
+
+body{
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -9,6 +12,8 @@ body{
 
 .header{
     background-color: #1F2937;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .headerup{
@@ -18,7 +23,7 @@ body{
 }
 
 .headerupleft{
-    margin-left: 150px;
+   
     font-size: 24px;
     font-weight:bold;
     color: #F9FAF8;
@@ -29,7 +34,7 @@ body{
 .headerupright{
     display: flex;
     justify-content: space-between;
-    margin-right: 150px;
+   
 }
 
 ul{
@@ -50,12 +55,12 @@ a{
 .headerdown{
     display: flex;
     margin-bottom: 50px;
+    
 }
 
 .headerdownleft{
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
     margin-right: 100px;
 }
 
@@ -88,6 +93,60 @@ button.continue {
 .moti{
     width: 500px;
     height: auto;
-    margin-right: 150px;
 }
 
+.middletop{
+    padding-bottom: 40px;
+}
+
+
+.middletophead{
+    display: flex;
+    justify-content: center;
+    margin: 45px;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F293f;
+}
+
+.middletoplist{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+#middletoplist{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    height: auto;
+    width: 155px;
+    font-size: 18px;
+}
+
+.image02{
+    padding-bottom: 20px;
+    width: 150px;
+    height: auto;
+}
+
+.middlecenter{
+    background-color: #e5e7eb;
+    padding: 50px 150px;
+}
+
+.middlecenter01{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.middlecenter02{
+    display: flex;
+    justify-content: end;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
